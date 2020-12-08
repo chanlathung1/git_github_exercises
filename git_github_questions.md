@@ -8,5 +8,8 @@ Why would you want to use a branch other than the default master?
 
 <!-- Initializing, tracking, and committing -->
 What command do you use to setup a git repository inside of your folder?
+- "git init" #=> will initialize a git repository inside of the respective folder
 What command do you use to ask git to start tracking a file?
+- "git add <file>" #=> tells git which file(s) to track and stage 
 What command do you use to ask git to move your file from the staging area to the repository?
+- "git commit" #=> moves the files from the staging area to the repo (-m, allows a message describing the changes to be attached to the commit for faster referencing)
